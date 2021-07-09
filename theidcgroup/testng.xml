@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CARegression">
+    <classes>
+      <class name="org.ca.webportal.testcases.TC003_CA_AddTeam"/>
+      <class name="org.ca.webportal.testcases.TC001_CA_LoginLogout"/>
+      <class name="org.ca.webportal.testcases.TC004_CA_AddPlayerForExisitingTeam"/>
+      <class name="org.ca.webportal.testcases.TC002_CA_AddActivity"/>
+    </classes>
+  </test> <!-- CARegression -->
+</suite> <!-- Suite -->

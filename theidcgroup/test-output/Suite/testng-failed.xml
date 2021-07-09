@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="CARegression(failed)">
+    <classes>
+      <class name="org.ca.webportal.testcases.TC002_CA_AddActivity">
+        <methods>
+          <include name="addActivity"/>
+          <include name="SetData"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.ca.webportal.testcases.TC002_CA_AddActivity -->
+      <class name="org.ca.webportal.testcases.TC001_CA_LoginLogout">
+        <methods>
+          <include name="SetData"/>
+          <include name="loginLogout"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.ca.webportal.testcases.TC001_CA_LoginLogout -->
+      <class name="org.ca.webportal.testcases.TC003_CA_AddTeam">
+        <methods>
+          <include name="addActivity"/>
+          <include name="closeBrowser"/>
+          <include name="SetData"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.ca.webportal.testcases.TC003_CA_AddTeam -->
+      <class name="org.ca.webportal.testcases.TC004_CA_AddPlayerForExisitingTeam">
+        <methods>
+          <include name="SetData"/>
+          <include name="addActivity" invocation-numbers="0 1 2 3"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.ca.webportal.testcases.TC004_CA_AddPlayerForExisitingTeam -->
+    </classes>
+  </test> <!-- CARegression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
